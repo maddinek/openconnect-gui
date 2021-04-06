@@ -56,5 +56,6 @@ void VpnProtocolModel::loadProtocols()
 {
     m_protocols.append({ "anyconnect", "Cisco AnyConnect", "" });
     m_protocols.append({ "nc", "Juniper Network Connect", "" });
+    m_protocols.append({ "gp", "Compatible with Palo Alto Networks (PAN) GlobalProtect SSL VPN", "" });
 }
 #endif
